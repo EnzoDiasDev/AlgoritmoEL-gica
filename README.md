@@ -1,1 +1,1 @@
-# AlgoritmoEL-gica
+# AlgoritmoELogica2S
