@@ -1,7 +1,7 @@
 Algoritmo "Bolo de Cenoura"
 Var
    Preco, OleoS, Cenoura, Ovos, AcucarBolo, Farinha, Fermento, EtapaUm: real
-   Manteiga, Chocolate, AcucarCobertura, EtapaDois, Total: real
+   Manteiga, Chocolate, AcucarCobertura, EtapaDois: real
 Inicio
       Escreva("Qual é o preço do óleo de soja? R$")
       Leia(Preco)
@@ -39,10 +39,11 @@ Inicio
       Chocolate <- preco / 200 * 18
       
       EtapaDois <- Manteiga + Chocolate + AcucarCobertura
-      Total <- EtapaUm + EtapaDois
       
-      Escreva("O valor total da etapa 1(bolo), é de R$", EtapaUm:3:2)
-      Escreva("O valor total da etapa 2(cobertura), é de R$", EtapaDois:3:2)
-      Escreva("O valor de custo total é de R$", Total:3:2)
+      Escreval
+      
+      Escreval("O valor total da etapa 1(bolo), é de R$", EtapaUm:3:2)
+      Escreval("O valor total da etapa 2(cobertura), é de R$", EtapaDois:3:2)
+      Escreval("O valor de custo total é de R$", EtapaUm + EtapaDois:3:2)
 
 Fimalgoritmo
